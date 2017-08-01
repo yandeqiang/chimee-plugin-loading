@@ -1,0 +1,22 @@
+chimee-loading{
+  position: absolute;
+  background: #0d1018;
+  color: #c1c1c1;
+}
+chimee-loading-log{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 200px;
+  height: 120px;
+  line-height: 18px;
+  overflow: auto;
+}
+chimee-loading-tip{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
