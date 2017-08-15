@@ -32,7 +32,6 @@ const chimeeLoading = popupFactory({
     this.$domWrap.on('click', this.click);
   },
   destroy () {
-    this.clearTimeout();
     this.$domWrap.off('click', this.click);
   },
   events: {
